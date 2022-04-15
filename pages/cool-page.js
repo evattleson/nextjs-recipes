@@ -18,6 +18,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Get started by picking a meal to learn more!{' '}
+          <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
@@ -28,7 +29,7 @@ export default function Home() {
 
           <a href="https://www.heb.com/product-detail/h-e-b-meal-simple-stuffed-atlantic-salmon-original-with-asparagus/2133207" className={styles.card}>
             <h2>Stuffed Atlantic Salmon Original with Asparagus &rarr;</h2>
-            <h5><p>This mouthwatering roasted stuffed salmon is bursting with flavor! Tender Atlantic salmon is filled with seafood stuffing. This hearty dish is ready to pop in the oven and eat in 24 minutes!</p></h5>
+            <p><h5>This mouthwatering roasted stuffed salmon is bursting with flavor! Tender Atlantic salmon is filled with seafood stuffing. This hearty dish is ready to pop in the oven and eat in 24 minutes!</h5></p>
           </a>
 
           <a
@@ -36,7 +37,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Coconut Shrimp Appetizer &rarr;</h2>
-            <h5><p>This dish features fifteen hand breaded coconut shrimp that have been lightly dusted and battered then coated in a blend of coconut and panko breadcrumb blend. Quick clean up and packaged in a convenient oven-ready tray.</p></h5>
+            <p><h5>This dish features fifteen hand breaded coconut shrimp that have been lightly dusted and battered then coated in a blend of coconut and panko breadcrumb blend. Quick clean up and packaged in a convenient oven-ready tray.</h5></p>
           </a>
 
           <a
@@ -44,9 +45,9 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Dessert &rarr;</h2>
-            <h5><p>
+            <p><h5>
               Click this link and you'll see.
-            </p></h5>
+            </h5></p>
           </a>
         </div>
       </main>
