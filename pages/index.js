@@ -18,7 +18,6 @@ export default function Home() {
 
                 <p className={styles.description}>
                     Get started by editing{' '}
-                    <code className={styles.code}>pages/index.js</code>
                 </p>
 
                 <div className={styles.grid}>
