@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Everett's Dinner Menu page!
+          Welcome to Everett&apos;s Dinner Menu page!
         </h1>
 
         <p className={styles.description}>
@@ -46,7 +46,7 @@ export default function Home() {
           >
             <h2>Dessert &rarr;</h2>
             <p><h5>
-              Click this link and you'll see.
+              Click this link and you&apos;ll see.
             </h5></p>
           </a>
         </div>
