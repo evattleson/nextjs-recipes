@@ -13,41 +13,41 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">cool page!</a>
+          Welcome to Everett&apos;s Dinner Menu page!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by picking a meal to learn more!{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.heb.com/product-detail/h-e-b-meal-simple-chicken-breast-with-cordon-bleu-stuffing/1878071" className={styles.card}>
+            <h2>Chicken Breast with Cordon Bleu Stuffing and Bacon Wrapped Asparagus  &rarr;</h2>
+            <p><h5>This mouthwatering roasted stuffed chicken is bursting with flavor! Tender chicken breast is filled with cordon bleu stuffing, creamy Swiss cheese, chopped green onions and delicious sliced ham, topped with fresh parsley flakes. This hearty dish is ready to pop in the oven and eat in 24 minutes!</h5></p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.heb.com/product-detail/h-e-b-meal-simple-stuffed-atlantic-salmon-original-with-asparagus/2133207" className={styles.card}>
+            <h2>Stuffed Atlantic Salmon Original with Asparagus &rarr;</h2>
+            <p><h5>This mouthwatering roasted stuffed salmon is bursting with flavor! Tender Atlantic salmon is filled with seafood stuffing. This hearty dish is ready to pop in the oven and eat in 24 minutes!</h5></p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.heb.com/product-detail/h-e-b-meal-simple-jumbo-coconut-shrimp-party-tray/2238133"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Coconut Shrimp Appetizer &rarr;</h2>
+            <p><h5>This dish features fifteen hand breaded coconut shrimp that have been lightly dusted and battered then coated in a blend of coconut and panko breadcrumb blend. Quick clean up and packaged in a convenient oven-ready tray.</h5></p>
+          </a>
+
+          <a
+            href="https://en.wikipedia.org/wiki/Bedroom"
+            className={styles.card}
+          >
+            <h2>Dessert &rarr;</h2>
+            <p><h5>
+              Click this link and you&apos;ll see.
+            </h5></p>
           </a>
         </div>
       </main>
